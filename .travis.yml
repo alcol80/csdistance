@@ -6,8 +6,8 @@ python:
   # - "3.4"
   # - "3.3"
   - "2.7"
-  - "2.6"
-  - "pypy"
+  # - "2.6"
+  # - "pypy"
 
 # ### Not valid in cointainer-based builds. Commented out:
 # before_install:
