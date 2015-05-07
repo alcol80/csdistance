@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 basedir=$(pwd)
 targetdir="$basedir/local"
