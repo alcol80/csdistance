@@ -25,7 +25,7 @@ addons:
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
-  - ./scripts/install_z3.sh
+  - ./scripts/install_z3prover.sh
   - pip install -r requirements.txt
 
 # command to run tests, e.g. python setup.py test
