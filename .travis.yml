@@ -36,5 +36,5 @@ install:
 # command to run tests, e.g. python setup.py test
 script:
   - pulptest
-  - which z3 && z3 --help
+  - if which z3; then z3 --help; fi
   - python setup.py test
