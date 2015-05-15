@@ -38,3 +38,6 @@ script:
   - pulptest
   - if which z3; then z3 --help; fi
   - python setup.py test
+
+notifications:
+  email: false
