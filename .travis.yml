@@ -23,10 +23,10 @@ addons:
     packages:
       - glpk-utils
 
-cache:
-  directories:
-    - z3
-    - local
+# cache:
+#   directories:
+#     - z3
+#     - local
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
